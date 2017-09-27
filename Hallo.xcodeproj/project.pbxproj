@@ -12,9 +12,12 @@
 		AC74E96E1F7C4124009D3290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC74E96C1F7C4124009D3290 /* Main.storyboard */; };
 		AC74E9701F7C4124009D3290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC74E96F1F7C4124009D3290 /* Assets.xcassets */; };
 		AC74E9731F7C4124009D3290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC74E9711F7C4124009D3290 /* LaunchScreen.storyboard */; };
+		AC74E97B1F7C4BC6009D3290 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74E97A1F7C4BC6009D3290 /* LoginViewController.swift */; };
+		D161685557A19350614D8484 /* Pods_Hallo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70C39A8550B6CFF0598AEEA /* Pods_Hallo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31B0E27CCB5520969A52B36C /* Pods-Hallo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hallo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hallo/Pods-Hallo.release.xcconfig"; sourceTree = "<group>"; };
 		AC74E9651F7C4124009D3290 /* Hallo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hallo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC74E9681F7C4124009D3290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC74E96A1F7C4124009D3290 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		AC74E96F1F7C4124009D3290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC74E9721F7C4124009D3290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC74E9741F7C4124009D3290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC74E97A1F7C4BC6009D3290 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F5847CAE5AD4FCCC90EA3579 /* Pods-Hallo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hallo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hallo/Pods-Hallo.debug.xcconfig"; sourceTree = "<group>"; };
+		F70C39A8550B6CFF0598AEEA /* Pods_Hallo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hallo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D161685557A19350614D8484 /* Pods_Hallo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E1CE1254C54F47B07EFC15A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F70C39A8550B6CFF0598AEEA /* Pods_Hallo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		962CD26B42E8ADC87A52451E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5847CAE5AD4FCCC90EA3579 /* Pods-Hallo.debug.xcconfig */,
+				31B0E27CCB5520969A52B36C /* Pods-Hallo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC74E95C1F7C4124009D3290 = {
 			isa = PBXGroup;
 			children = (
 				AC74E9671F7C4124009D3290 /* Hallo */,
 				AC74E9661F7C4124009D3290 /* Products */,
+				962CD26B42E8ADC87A52451E /* Pods */,
+				8E1CE1254C54F47B07EFC15A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 			children = (
 				AC74E9681F7C4124009D3290 /* AppDelegate.swift */,
 				AC74E96A1F7C4124009D3290 /* ViewController.swift */,
+				AC74E97A1F7C4BC6009D3290 /* LoginViewController.swift */,
 				AC74E96C1F7C4124009D3290 /* Main.storyboard */,
 				AC74E96F1F7C4124009D3290 /* Assets.xcassets */,
 				AC74E9711F7C4124009D3290 /* LaunchScreen.storyboard */,
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC74E9771F7C4124009D3290 /* Build configuration list for PBXNativeTarget "Hallo" */;
 			buildPhases = (
+				A9F2891AA2C63F69B7BA1563 /* [CP] Check Pods Manifest.lock */,
 				AC74E9611F7C4124009D3290 /* Sources */,
 				AC74E9621F7C4124009D3290 /* Frameworks */,
 				AC74E9631F7C4124009D3290 /* Resources */,
+				1ED8F4A231818EA60751CE38 /* [CP] Embed Pods Frameworks */,
+				2933A0808DAE735950E562DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,11 +161,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ED8F4A231818EA60751CE38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hallo/Pods-Hallo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hallo/Pods-Hallo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2933A0808DAE735950E562DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hallo/Pods-Hallo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9F2891AA2C63F69B7BA1563 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hallo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC74E9611F7C4124009D3290 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC74E97B1F7C4BC6009D3290 /* LoginViewController.swift in Sources */,
 				AC74E96B1F7C4124009D3290 /* ViewController.swift in Sources */,
 				AC74E9691F7C4124009D3290 /* AppDelegate.swift in Sources */,
 			);
@@ -258,6 +345,7 @@
 		};
 		AC74E9781F7C4124009D3290 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5847CAE5AD4FCCC90EA3579 /* Pods-Hallo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hallo/Info.plist;
@@ -270,6 +358,7 @@
 		};
 		AC74E9791F7C4124009D3290 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B0E27CCB5520969A52B36C /* Pods-Hallo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hallo/Info.plist;
@@ -299,6 +388,7 @@
 				AC74E9791F7C4124009D3290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
