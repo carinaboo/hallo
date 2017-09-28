@@ -9,60 +9,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Hallo/ChatCell.swift"
-            timestampString = "528270394.183844"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "message"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Hallo.ChatCell.message.didset : Swift.ImplicitlyUnwrappedOptional&lt;Hallo.Message&gt;"
-                  moduleName = "Hallo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/carinaboo/dev/codepath/Hallo/Hallo/ChatCell.swift"
-                  timestampString = "528269150.126613"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "897">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Hallo.ChatCell.(message.didset : Swift.ImplicitlyUnwrappedOptional&lt;Hallo.Message&gt;).(implicit closure #1)"
-                  moduleName = "Hallo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/carinaboo/dev/codepath/Hallo/Hallo/ChatCell.swift"
-                  timestampString = "528269150.131351"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "12">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Hallo/ChatViewController.swift"
-            timestampString = "528270024.854334"
+            timestampString = "528272583.407143"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -70,15 +22,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Hallo/ChatViewController.swift"
-            timestampString = "528270156.234426"
+            timestampString = "528272583.407143"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "onSend(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -86,46 +38,46 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Hallo/ChatViewController.swift"
-            timestampString = "528270156.234426"
+            timestampString = "528272583.407143"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "onSend(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Hallo.ChatViewController.onSend (__ObjC.UIButton) -&gt; ()"
                   moduleName = "Hallo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/carinaboo/dev/codepath/Hallo/Hallo/ChatViewController.swift"
-                  timestampString = "528270395.295609"
+                  timestampString = "528272584.54076"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
                   offsetFromSymbolStart = "651">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Hallo.ChatViewController.(onSend (__ObjC.UIButton) -&gt; ()).(closure #1)"
                   moduleName = "Hallo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/carinaboo/dev/codepath/Hallo/Hallo/ChatViewController.swift"
-                  timestampString = "528270395.298597"
+                  timestampString = "528272584.542721"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "74"
-                  endingLineNumber = "74"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
                   offsetFromSymbolStart = "35">
                </Location>
             </Locations>

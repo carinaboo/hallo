@@ -26,7 +26,6 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         // Do any additional setup after loading the view.
         let messagesQuery = Message.query()!
             .whereKeyExists("text")
-            .whereKeyExists("user")
             .includeKey("user")
             .order(byAscending: "createdAt") as! PFQuery<Message>
         

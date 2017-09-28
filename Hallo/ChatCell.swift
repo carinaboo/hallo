@@ -17,13 +17,15 @@ class ChatCell: UITableViewCell {
     var message: Message! {
         didSet {
             messageLabel.text = message.text
-            if var user = message.user {
-                user = try! user.fetchIfNeeded()
-                userLabel.text = user.username ?? ""
+            if let user = try! message.user?.fetchIfNeeded() {
+                // Note: If you're not on Parse v1.15, this will crash on fetchIfNeeded() when you post a message.
+                // v1.14 had a bug where message.user is returned as a dictionary instead of a PFUser.
+                // To update `pod update`, delete your Podfile.lock, and run `pod install`.
+                userLabel.text = user.username
+                userLabel.isHidden = false
+            } else {
+                userLabel.isHidden = true
             }
-//            if let user = try! message.user?.fetchIfNeeded() {
-//                userLabel.text = user.username
-//            }
         }
     }
     
