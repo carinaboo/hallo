@@ -7,5 +7,6 @@ target 'Hallo' do
 
   # Pods for Hallo
   pod 'Parse'
+  pod 'ParseLiveQuery'
 
 end

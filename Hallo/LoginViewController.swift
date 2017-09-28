@@ -14,9 +14,6 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
-    @IBOutlet weak var signUpButton: UIButton!
-    @IBOutlet weak var logInButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -50,6 +47,7 @@ class LoginViewController: UIViewController {
             } else {
                 print("User Registered successfully")
                 // manually segue to logged in view
+                self.performSegue(withIdentifier: "LogInToChatSegue", sender: self)
             }
         }
     }
@@ -71,6 +69,7 @@ class LoginViewController: UIViewController {
             } else {
                 print("User logged in successfully")
                 // display view controller that needs to shown after successful login
+                self.performSegue(withIdentifier: "LogInToChatSegue", sender: self)
             }
         }
     }

@@ -13,6 +13,8 @@
 		AC74E9701F7C4124009D3290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC74E96F1F7C4124009D3290 /* Assets.xcassets */; };
 		AC74E9731F7C4124009D3290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC74E9711F7C4124009D3290 /* LaunchScreen.storyboard */; };
 		AC74E97B1F7C4BC6009D3290 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74E97A1F7C4BC6009D3290 /* LoginViewController.swift */; };
+		AC74E97D1F7C5DDD009D3290 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74E97C1F7C5DDD009D3290 /* ChatViewController.swift */; };
+		AC74E97F1F7C7843009D3290 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74E97E1F7C7843009D3290 /* Message.swift */; };
 		D161685557A19350614D8484 /* Pods_Hallo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70C39A8550B6CFF0598AEEA /* Pods_Hallo.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		AC74E9721F7C4124009D3290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC74E9741F7C4124009D3290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC74E97A1F7C4BC6009D3290 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AC74E97C1F7C5DDD009D3290 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		AC74E97E1F7C7843009D3290 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		F5847CAE5AD4FCCC90EA3579 /* Pods-Hallo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hallo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hallo/Pods-Hallo.debug.xcconfig"; sourceTree = "<group>"; };
 		F70C39A8550B6CFF0598AEEA /* Pods_Hallo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hallo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,6 +87,8 @@
 				AC74E9681F7C4124009D3290 /* AppDelegate.swift */,
 				AC74E96A1F7C4124009D3290 /* ViewController.swift */,
 				AC74E97A1F7C4BC6009D3290 /* LoginViewController.swift */,
+				AC74E97C1F7C5DDD009D3290 /* ChatViewController.swift */,
+				AC74E97E1F7C7843009D3290 /* Message.swift */,
 				AC74E96C1F7C4124009D3290 /* Main.storyboard */,
 				AC74E96F1F7C4124009D3290 /* Assets.xcassets */,
 				AC74E9711F7C4124009D3290 /* LaunchScreen.storyboard */,
@@ -224,6 +230,8 @@
 			files = (
 				AC74E97B1F7C4BC6009D3290 /* LoginViewController.swift in Sources */,
 				AC74E96B1F7C4124009D3290 /* ViewController.swift in Sources */,
+				AC74E97F1F7C7843009D3290 /* Message.swift in Sources */,
+				AC74E97D1F7C5DDD009D3290 /* ChatViewController.swift in Sources */,
 				AC74E9691F7C4124009D3290 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
