@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E2A5409F9F8F6F33103C3D989F1F595"
-               BuildableName = "Pods_Hallo.framework"
-               BlueprintName = "Pods-Hallo"
+               BlueprintIdentifier = "D19B48CA399A7DEF6381AD8475D635B3"
+               BuildableName = "BoltsSwift.framework"
+               BlueprintName = "Bolts-Swift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E2A5409F9F8F6F33103C3D989F1F595"
-            BuildableName = "Pods_Hallo.framework"
-            BlueprintName = "Pods-Hallo"
+            BlueprintIdentifier = "D19B48CA399A7DEF6381AD8475D635B3"
+            BuildableName = "BoltsSwift.framework"
+            BlueprintName = "Bolts-Swift"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

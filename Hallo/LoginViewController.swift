@@ -31,6 +31,7 @@ class LoginViewController: UIViewController {
         
         // Set user properties
         newUser.username = emailTextField.text
+        newUser.email = emailTextField.text
         newUser.password = passwordTextField.text
         
         // Call sign up function on the object

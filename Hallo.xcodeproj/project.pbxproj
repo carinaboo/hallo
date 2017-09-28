@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		AC74E9691F7C4124009D3290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74E9681F7C4124009D3290 /* AppDelegate.swift */; };
-		AC74E96B1F7C4124009D3290 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74E96A1F7C4124009D3290 /* ViewController.swift */; };
 		AC74E96E1F7C4124009D3290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC74E96C1F7C4124009D3290 /* Main.storyboard */; };
 		AC74E9701F7C4124009D3290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC74E96F1F7C4124009D3290 /* Assets.xcassets */; };
 		AC74E9731F7C4124009D3290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC74E9711F7C4124009D3290 /* LaunchScreen.storyboard */; };
 		AC74E97B1F7C4BC6009D3290 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74E97A1F7C4BC6009D3290 /* LoginViewController.swift */; };
 		AC74E97D1F7C5DDD009D3290 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74E97C1F7C5DDD009D3290 /* ChatViewController.swift */; };
 		AC74E97F1F7C7843009D3290 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74E97E1F7C7843009D3290 /* Message.swift */; };
+		AC74E9811F7C8C77009D3290 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74E9801F7C8C77009D3290 /* ChatCell.swift */; };
 		D161685557A19350614D8484 /* Pods_Hallo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70C39A8550B6CFF0598AEEA /* Pods_Hallo.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,7 +22,6 @@
 		31B0E27CCB5520969A52B36C /* Pods-Hallo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hallo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hallo/Pods-Hallo.release.xcconfig"; sourceTree = "<group>"; };
 		AC74E9651F7C4124009D3290 /* Hallo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hallo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC74E9681F7C4124009D3290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC74E96A1F7C4124009D3290 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC74E96D1F7C4124009D3290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC74E96F1F7C4124009D3290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC74E9721F7C4124009D3290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +29,7 @@
 		AC74E97A1F7C4BC6009D3290 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AC74E97C1F7C5DDD009D3290 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		AC74E97E1F7C7843009D3290 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		AC74E9801F7C8C77009D3290 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		F5847CAE5AD4FCCC90EA3579 /* Pods-Hallo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hallo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hallo/Pods-Hallo.debug.xcconfig"; sourceTree = "<group>"; };
 		F70C39A8550B6CFF0598AEEA /* Pods_Hallo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hallo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,9 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				AC74E9681F7C4124009D3290 /* AppDelegate.swift */,
-				AC74E96A1F7C4124009D3290 /* ViewController.swift */,
 				AC74E97A1F7C4BC6009D3290 /* LoginViewController.swift */,
 				AC74E97C1F7C5DDD009D3290 /* ChatViewController.swift */,
+				AC74E9801F7C8C77009D3290 /* ChatCell.swift */,
 				AC74E97E1F7C7843009D3290 /* Message.swift */,
 				AC74E96C1F7C4124009D3290 /* Main.storyboard */,
 				AC74E96F1F7C4124009D3290 /* Assets.xcassets */,
@@ -175,13 +175,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Hallo/Pods-Hallo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts-Swift/BoltsSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/ParseLiveQuery/ParseLiveQuery.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BoltsSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParseLiveQuery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -229,9 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC74E97B1F7C4BC6009D3290 /* LoginViewController.swift in Sources */,
-				AC74E96B1F7C4124009D3290 /* ViewController.swift in Sources */,
 				AC74E97F1F7C7843009D3290 /* Message.swift in Sources */,
 				AC74E97D1F7C5DDD009D3290 /* ChatViewController.swift in Sources */,
+				AC74E9811F7C8C77009D3290 /* ChatCell.swift in Sources */,
 				AC74E9691F7C4124009D3290 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

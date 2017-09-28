@@ -6,8 +6,8 @@
 //  Copyright © 2017 Carina Boo. All rights reserved.
 //
 
-import Parse
 import UIKit
+import Parse
 
 class Message: PFObject, PFSubclassing {
     @NSManaged var text: String?
